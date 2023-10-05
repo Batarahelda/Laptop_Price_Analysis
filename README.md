@@ -3,50 +3,56 @@ Disusun oleh : Batara Helda Firdauzy
 ## Domain Proyek
 ### Latar Belakang
 Laptop merupakan kebutuhan sekunder yang dibutuhkan oleh banyak bidang pekerjaan pada saat ini. Laptop memiliki nilai yang bergantung pada spesifikasi dan fitur dari laptop itu sendiri. 
-<div><img src="data:image/jpeg;base64,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" width="1000"/></div>
-[Referensi](https://scholar.google.com/) 
+
+<div><img src="https://github.com/Batarahelda/Laptop_Price_Analysis/assets/125903321/7711d15d-88d7-4c40-999a-dee7ecf4e243" width="750"/></div>
+
+[Referensi Gambar](https://www.pngegg.com/id/png-zgbuq/download) 
+
+Dalam mencapai hal tersebut, maka dilakukan penelitian untuk memprediksi harga laptop menggunakan model machine learning. Diharapkan model ini mampu memprediksi harga laptop yang sesuai dengan harga pasar. Prediksi ini nantinya dijadikan acuan bagi perusahaan dalam pembelian laptop dengan harga yang dapat mendatangkan profit bagi perusahaan.
 
 ## Business Understanding
 
-Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.
-
-Bagian laporan ini mencakup:
-
 ### Problem Statements
 
-Menjelaskan pernyataan masalah latar belakang:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+1. Spesifikasi apa saja yang mempengaruhi harga dari laptop?
+2. Berapa harga laptop dengan spesifikasi tertentu?
 
 ### Goals
 
 Menjelaskan tujuan dari pernyataan masalah:
-- Jawaban pernyataan masalah 1
-- Jawaban pernyataan masalah 2
-- Jawaban pernyataan masalah n
+1. Mengetahui spesifikasi-spesifikasi yang dapat mempengaruhi harga dari laptop
+2. Membuat model machine learning yang dapat memprediksi harga laptop dengan spesifikasi tertentu
 
-Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Menambahkan bagian “Solution Statement” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
-
-    ### Solution statements
-    - Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
-    - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
+### Solution statements
+1. Menganalisis data dengan melakukan univariate analysis dan multivariate analysis. Memahami data juga dapat dilakukan dengan visualisasi. Memahami data dapat membantu untuk mengetahui kolerasi antar fitur.
+2. Melakukan hyperparameter tuning menggunakan grid search dan membangun model regresi yang dapat memprediksi bilangan kontinu. ALgoritma yang dipakai dalam proyek ini adalah K-Nearest Neighbour, Random Forest, dan AdaBoost.
 
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. Sertakan juga sumber atau tautan untuk mengunduh dataset. Contoh: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Restaurant+%26+consumer+data).
 
-Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
+Dataset yang digunakan dalam proyek ini merupakan data harga laptop dengan berbagai spesifikasi dan berbagai merek. Dataset ini dapat diunduh pada [Kaggle : Laptop Price Analysis](https://www.kaggle.com/datasets/aemyjutt/laptop-price-analysis/data)
 
-### Variabel-variabel pada Restaurant UCI dataset adalah sebagai berikut:
-- accepts : merupakan jenis pembayaran yang diterima pada restoran tertentu.
-- cuisine : merupakan jenis masakan yang disajikan pada restoran.
-- dst
+Berikut informasi pada Dataset :
+- Dataset memiliki format CSV (Comma-Seperated Values).
+- Dataset memiliki 4746 sample dengan 13 fitur.
+- Dataset memiliki 1 fitur bertipe float64 dan 12 fitur bertipe object.
+- Tidak ada missing value dalam dataset
 
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
+### Variabel-variabel pada Dataset
+- Manufacturer : Merek laptop.
+- Model Name : Tipe model laptop.
+- Category : Kategori laptop.
+- Screen Size : Ukuran layar laptop.
+- Screen : Tipe layar pada laptop.
+- CPU : Tipe prossesor yang digunakan pada laptop.
+- RAM : RAM yang digunakan pada laptop.
+- Storage : Penyimpanan pada laptop.
+- GPU : Graphic Card yang digunakan pada laptop.
+- Operating System : Operating System yang digunakan pada laptop.
+- Operating Sytem Version : Versi Operating System pada laptop.
+- Weight : Berat laptop.
+- Price : Harga laptop.
+
+### Unvariate Analysis
 
 ## Data Preparation
 Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
