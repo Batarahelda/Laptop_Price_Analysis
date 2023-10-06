@@ -24,7 +24,7 @@ Menjelaskan tujuan dari pernyataan masalah:
 2. Membuat model machine learning yang dapat memprediksi harga laptop dengan spesifikasi tertentu
 
 ### Solution statements
-1. Menganalisis data dengan melakukan univariate analysis dan multivariate analysis. Memahami data juga dapat dilakukan dengan visualisasi. Memahami data dapat membantu untuk mengetahui kolerasi antar fitur.
+1. Menganalisis data dengan melakukan univariate analysis. Memahami data juga dapat dilakukan dengan visualisasi. Memahami data dapat membantu untuk mengetahui kolerasi antar fitur.
 2. Melakukan hyperparameter tuning menggunakan grid search dan membangun model regresi yang dapat memprediksi bilangan kontinu. ALgoritma yang dipakai dalam proyek ini adalah K-Nearest Neighbour, Random Forest, dan AdaBoost.
 
 ## Data Understanding
@@ -54,11 +54,25 @@ Berikut informasi pada Dataset :
 
 ### Unvariate Analysis
 
+Univariate Analysis adalah menganalisis setiap fitur secara terpisah.
+Pada sample Manufacturer terdapat sebaran sample tidak merata sehingga sample yang memiliki nilai dibawah 10 sample akan dihapus. Berikut sebaran sample sebelum dihapus
+<div><img src = "https://github.com/Batarahelda/Laptop_Price_Analysis/assets/125903321/9e0c4cde-8487-4b9f-9e91-54ff94c745df" width="500"/></div>
+Berikut sebaran sample setelah dihapus sample dibawah 10
+<div><img src = "https://github.com/Batarahelda/Laptop_Price_Analysis/assets/125903321/c5642b9a-28e5-4b87-a1be-61adfe5c093f" width="500"/></div>
+
+### Analisis sebaran pada nilai numerik
+
+<div><img src = "https://github.com/Batarahelda/Laptop_Price_Analysis/assets/125903321/09343dce-a0ac-4f8e-9196-6b87deae515b" width="500"/></div>
+Berdasarkan grafik diatas dapat disimpulkan bahwa harga dari laptop memiliki rentang nilai dari 1706374 sampai 43561908. Tetapi nilai rata-rata dari harga laptop yang tersedia pada dataset ini adalah 9888781. 
+
 ## Data Preparation
 Pada bagian ini Anda menerapkan dan menyebutkan teknik data preparation yang dilakukan. Teknik yang digunakan pada notebook dan laporan harus berurutan.
 
-**Rubrik/Kriteria Tambahan (Opsional)**: 
-- Menjelaskan proses data preparation yang dilakukan
+**Rubrik/Kriteria Tambahan (Opsional)**:
+
+
+- Menjelaskan proses data preparation yang dilakukan![grafik price]()
+
 - Menjelaskan alasan mengapa diperlukan tahapan data preparation tersebut.
 
 ## Modeling
@@ -68,6 +82,7 @@ Tahapan ini membahas mengenai model machine learning yang digunakan untuk menyel
 - Menjelaskan kelebihan dan kekurangan dari setiap algoritma yang digunakan.
 - Jika menggunakan satu algoritma pada solution statement, lakukan proses improvement terhadap model dengan hyperparameter tuning. **Jelaskan proses improvement yang dilakukan**.
 - Jika menggunakan dua atau lebih algoritma pada solution statement, maka pilih model terbaik sebagai solusi. **Jelaskan mengapa memilih model tersebut sebagai model terbaik**.
+
 
 ## Evaluation
 Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
